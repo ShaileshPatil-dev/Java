@@ -13,15 +13,15 @@ public class max {
           System.out.println("Enter a number (3)");
           int c = scn.nextInt();
 
-          int max = a ; // on of the three numbers 
+          int max = a; // on of the three numbers
 
-          if (b> max) {
-               max = b ;
+          if (b > max) {
+               max = b;
+          } else if (c > max) {
+               max = c;
           }
-          else if (c > max) {
-               max = c ;
-          }
-          System.out.println("The largest number is "+max);
-          
+          System.out.println("The largest number is " + max);
+
+          scn.close();
      }
 }

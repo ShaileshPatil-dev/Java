@@ -14,6 +14,7 @@ public class max3 {
 
           int max = Math.max(c, Math.max(a, b));
 
-          System.out.println("The maximum number is :"+max);
+          System.out.println("The maximum number is :" + max);
+          scn.close();
      }
 }

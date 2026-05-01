@@ -10,11 +10,11 @@ public class ArmstrongNumber {
           int copy = num ;
 
           int counter = 0;
-          int sum = 0; 
           while (copy  != 0) {
                copy = copy /10;
                counter++;
           }
+          int sum = 0; 
           copy = num ;
           while (copy !=0) {
                int power = 1;

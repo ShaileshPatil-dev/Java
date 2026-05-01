@@ -21,6 +21,7 @@ public class max2 {
                max = c;
 
           }
-          System.out.println("The maximum number is :"+max);
+          System.out.println("The maximum number is :" + max);
+          scn.close();
      }
 }

@@ -7,8 +7,8 @@ public class fibseries {
           // To calculate Fibonacci Series up to n numbers.
           System.out.println("Enter the number limit ");
           Scanner scn = new Scanner(System.in);
-
           int num = scn.nextInt();
+
           int a = 1, b = 1, c;
 
           if (num < 0) {

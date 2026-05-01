@@ -7,11 +7,11 @@ public class forloop {
                System.out.print(i + " ");
           }
           /*
-            for(inntiallization ; condition ; incrementation/decrementation )
-           {
-            do this when condition is true
-            }
-            when to use it ? when you know the upper limit eg:1 to 100
+           * for(inntiallization ; condition ; incrementation/decrementation )
+           * {
+           * do this when condition is true
+           * }
+           * when to use it ? when you know the upper limit eg:1 to 100
            */
 
      }
