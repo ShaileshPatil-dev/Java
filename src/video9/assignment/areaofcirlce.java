@@ -2,7 +2,7 @@ package video9.assignment;
 
 import java.util.Scanner;
 
-public class areaofcirlce {
+public class Areaofcirlce {
      public static void main(String[] args) {
           // area of circle
           Scanner scn = new Scanner(System.in);
