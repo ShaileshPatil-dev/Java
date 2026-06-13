@@ -14,6 +14,7 @@ public class test3 {
           swap(a, b);
           System.out.println("a"+a);
           System.out.println("a"+b);
+          scn.close();
      }
 
      static void swap(int A, int B) {
