@@ -1,7 +1,7 @@
 package video14;
 
 public class BinarySearch2 {
-     // Binary Search Algorithum for the Decending order Array
+  //Binary Search Algorithm for the Decending order Array
      public static void main(String[] args) {
           int[] arr = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
           int target = 5;
