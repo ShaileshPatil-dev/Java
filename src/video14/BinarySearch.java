@@ -1,6 +1,6 @@
 package video14;
 public class BinarySearch {
-     // Binary Search Algorithum for the Accending order Array
+   // Binary Search Algorithm for the Accending order Array
      public static void main(String[] args) {
           int[] SortedArray = { 0, 4, 5, 6, 7, 8, 9 };
           int target = 7;
