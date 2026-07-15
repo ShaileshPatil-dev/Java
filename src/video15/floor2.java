@@ -1,16 +1,14 @@
 package video15;
 
-public class Ceiling2 {
+public class floor2 {
      public static void main(String[] args) {
-          // Que : find the smallest element that is greater than or equals to Target
-          // Decending order sorted array
-          int[] arr = { 100, 91, 82, 73, 64, 55, 46, 37, 28, 19 };
-          int target = 74;
-          int ans = Ceiling(arr, target);
+          int[] arr = {100, 91, 82, 73, 64, 55, 46, 37, 28, 19};
+          int target = 56;
+          int ans = Floor(arr, target);
           System.out.println(ans);
      }
 
-     static int Ceiling(int[] Arr, int Target) {
+     static int Floor(int[] Arr, int Target) {
           if (Target > Arr[Arr.length - 1] || Target < Arr[0]) {
                return -1;
           }
@@ -22,11 +20,11 @@ public class Ceiling2 {
                     return Arr[mid];
                } else if (Arr[mid] < Target) {
                     end = mid - 1;
-               } else if (Arr[mid] > Target) {
+               } else {
                     start = mid + 1;
                }
           }
-       
-          return Arr[end];
+         
+          return Arr[start];
      }
 }

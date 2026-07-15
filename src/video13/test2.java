@@ -2,12 +2,13 @@ package video13;
 
 public class test2 {
      public static void main(String[] args) {
-          String str = "Shailesh Patil";
-          char target = 's';
-          System.out.println(Search(str , target));
+          String str = "cyguguydduyfddkyt56e5esftviuubggx5 uyt7td6rvuyfvuvrtrrasyetrsukdcuatrs";
+          char target = 'y';
+          System.out.println(Search(str, target));
 
      }
-     static boolean Search(String name , char goal){
+
+     static boolean Search(String name, char goal) {
           if (name.length() == 0) {
                return false;
           }

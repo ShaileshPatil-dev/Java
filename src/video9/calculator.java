@@ -47,6 +47,6 @@ public class calculator {
                     System.out.println("Enter correct operator else for exit enter x/X");
                }
           }
-         scn.close(); 
+         scn.close();  
      }
 }
