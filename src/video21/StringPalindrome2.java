@@ -5,6 +5,7 @@ public class StringPalindrome2 {
      public static void main(String[] args) {
           String str = "aabbbbaa";
           System.out.println(isPalindrome(str));
+          
 }
 static boolean isPalindrome(String str) {
     int i = 0;
