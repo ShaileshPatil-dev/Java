@@ -2,19 +2,19 @@ package video22;
 
 public class Patterns {
      public static void main(String[] args) {
-          // pattern1(5);
-          // Pattern2(5);
-          // Pattern3(5);
-          // Pattern4(5);
-          // Pattern5(5);
-          // Pattern6(5);
-          // Pattern7(5);
-          // Pattern8(5);
-          // Pattern9(5);
-          // Pattern10(5);
-          // Pattern11(5);
-          // Pattern12(5);
-          // Pattern13(5);
+          pattern1(5);
+          Pattern2(5);
+          Pattern3(5);
+          Pattern4(5);
+          Pattern5(5);
+          Pattern6(5);
+          Pattern7(5);
+          Pattern8(5);
+          Pattern9(5);
+          Pattern10(5);
+          Pattern11(5);
+          Pattern12(5);
+          Pattern13(5);
      }
 
      static void pattern1(int n) {
