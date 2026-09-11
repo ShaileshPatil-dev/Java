@@ -1,5 +1,5 @@
 package video21;
-// import java.util.HashMap;
+import java.util.HashMap;
 public class LearnHashmap {
  public static void main(String[] args) {
      String s = "banana"; 
